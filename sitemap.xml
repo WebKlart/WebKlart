@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- Forside / Hovedside -->
+<url>
+  <loc>https://webklart.no/</loc>
+  <lastmod>2026-02-14</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <image:image>
+    <image:loc>https://webklart.no/Webklart.png</image:loc>
+    <image:title>WebKlart Logo - Profesjonelt Webdesign</image:title>
+    <image:caption>WebKlart leverer profesjonelt webdesign og nettsideutvikling</image:caption>
+  </image:image>
+</url>
+
+<!-- Tjenester-seksjonen -->
+<url>
+  <loc>https://webklart.no/#tjenester</loc>
+  <lastmod>2026-02-14</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<!-- Portfolio-seksjonen -->
+<url>
+  <loc>https://webklart.no/#portfolio</loc>
+  <lastmod>2026-02-14</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+  <image:image>
+    <image:loc>https://webklart.no/roof_cleaning.png</image:loc>
+    <image:title>TakRent Nettside - Webdesign Eksempel</image:title>
+  </image:image>
+</url>
+
+<!-- Kontakt-seksjonen -->
+<url>
+  <loc>https://webklart.no/#kontakt</loc>
+  <lastmod>2026-02-14</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+</urlset>

@@ -8,10 +8,44 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <title>WebKlart | Moderne Nettsider & Optimalisering</title>
-    <meta name="description"
-        content="WebKlart utvikler moderne, raske og brukervennlige nettsider som hjelper din bedrift å vokse. Spesialister på webdesign og optimalisering.">
+    
+    <!-- SEO Meta Tags -->
+    <title>Lage Nettside for Bedrift | Profesjonelt Webdesign | WebKlart</title>
+    <meta name="description" content="Få laget nettside for din bedrift. Profesjonelt webdesign og moderne nettsider som rangerer på Google. Fast pris, rask levering. Kontakt oss i dag!">
+    <meta name="keywords" content="lage nettside, få laget nettside, nettside for bedrift, webdesign, nettside firma, lage hjemmeside, webdesigner, nettsideutvikling">
+    <link rel="canonical" href="https://webklart.no/">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="WebKlart">
+    <meta name="language" content="Norwegian">
+    <meta name="geo.region" content="NO">
+    <meta name="geo.placename" content="Norge">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://webklart.no/">
+    <meta property="og:title" content="Lage Nettside for Bedrift | Profesjonelt Webdesign | WebKlart">
+    <meta property="og:description" content="Få laget nettside for din bedrift. Profesjonelt webdesign og moderne nettsider som rangerer på Google. Fast pris, rask levering.">
+    <meta property="og:image" content="https://webklart.no/Webklart.png">
+    <meta property="og:locale" content="no_NO">
+    <meta property="og:site_name" content="WebKlart">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://webklart.no/">
+    <meta name="twitter:title" content="Lage Nettside for Bedrift | Profesjonelt Webdesign">
+    <meta name="twitter:description" content="Få laget nettside for din bedrift. Profesjonelt webdesign og moderne nettsider som rangerer på Google.">
+    <meta name="twitter:image" content="https://webklart.no/Webklart.png">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Preload Critical Assets -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="Webklart.png" as="image">
+    <link rel="preload" href="code-in-progress-stockcake.webp" as="image">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -55,6 +89,144 @@
         }
     </script>
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://webklart.no/#website",
+          "url": "https://webklart.no/",
+          "name": "WebKlart",
+          "description": "Profesjonelt webdesign og nettsideutvikling for bedrifter",
+          "publisher": {
+            "@id": "https://webklart.no/#organization"
+          },
+          "inLanguage": "no"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://webklart.no/#organization",
+          "name": "WebKlart",
+          "url": "https://webklart.no/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://webklart.no/Webklart.png",
+            "width": 250,
+            "height": 100
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+47-472-28-951",
+            "contactType": "customer service",
+            "email": "kontakt@webklart.no",
+            "areaServed": "NO",
+            "availableLanguage": "Norwegian"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "NO",
+            "addressRegion": "Norge"
+          },
+          "sameAs": []
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://webklart.no/#localbusiness",
+          "name": "WebKlart",
+          "image": "https://webklart.no/Webklart.png",
+          "description": "Vi lager profesjonelle nettsider for bedrifter. Spesialister på webdesign, SEO og moderne nettsideutvikling.",
+          "url": "https://webklart.no/",
+          "telephone": "+47-472-28-951",
+          "email": "kontakt@webklart.no",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "NO"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "addressCountry": "NO"
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "17:00"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "12"
+          }
+        },
+        {
+          "@type": "Service",
+          "serviceType": "Webdesign og nettsideutvikling",
+          "provider": {
+            "@id": "https://webklart.no/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Norge"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Webutviklingstjenester",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Lage nettside for bedrift",
+                  "description": "Profesjonell nettside utviklet med moderne teknologi og responsivt design"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Webdesign",
+                  "description": "Moderne og brukervennlig webdesign tilpasset din bedrift"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "SEO og optimalisering",
+                  "description": "Optimalisering for bedre rangering i Google søkeresultater"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://webklart.no/#webpage",
+          "url": "https://webklart.no/",
+          "name": "Lage Nettside for Bedrift | Profesjonelt Webdesign | WebKlart",
+          "isPartOf": {
+            "@id": "https://webklart.no/#website"
+          },
+          "about": {
+            "@id": "https://webklart.no/#organization"
+          },
+          "description": "Få laget nettside for din bedrift. Profesjonelt webdesign og moderne nettsider som rangerer på Google. Fast pris, rask levering.",
+          "inLanguage": "no"
+        }
+      ]
+    }
+    </script>
+    
     <!-- Prevent flash of wrong theme -->
     <script>
         if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -65,11 +237,11 @@
 
 <body class="transition-colors duration-300">
 
-    <header>
+    <header role="banner">
         <div class="container">
-            <nav>
-                <a href="#" class="logo">
-                    <img src="Webklart.png" alt="WebKlart">
+            <nav role="navigation" aria-label="Hovednavigasjon">
+                <a href="/" class="logo" aria-label="WebKlart - Gå til forsiden">
+                    <img src="Webklart.png" alt="WebKlart logo - Profesjonelt webdesign og nettsideutvikling" width="250" height="100">
                 </a>
                 <div class="nav-actions">
                     <!-- Dark mode toggle -->
@@ -97,30 +269,29 @@
         </div>
     </header>
 
-    <section class="hero">
+    <main role="main">
+    <section class="hero" aria-labelledby="hero-heading">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Nettsider som <span>leverer resultater</span></h1>
-                    <p>Vi utvikler moderne, raske og brukervennlige nettsider som hjelper din bedrift å vokse. Fra design
-                        til
-                        optimalisering.</p>
-                    <a href="#kontakt" class="cta-button transition-all duration-300 hover:scale-105 active:scale-95">Start et prosjekt</a>
+                    <h1 id="hero-heading">Nettsider som <span>leverer resultater</span></h1>
+                    <p>Trenger du å få laget nettside? Vi utvikler moderne, raske og SEO-optimaliserte nettsider som hjelper din bedrift å vokse. Profesjonelt webdesign fra start til slutt.</p>
+                    <a href="#kontakt" class="cta-button transition-all duration-300 hover:scale-105 active:scale-95" rel="nofollow">Start et prosjekt</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="tjenester" class="services">
+    <section id="tjenester" class="services" aria-labelledby="services-heading">
         <div class="container">
             <div class="section-title">
-                <h2>Hva vi tilbyr</h2>
+                <h2 id="services-heading">Våre tjenester innen webdesign og nettsideutvikling</h2>
                 <span></span>
             </div>
 
             <div class="services-grid">
-                <article class="service-card card-3d animate-fade-in-up opacity-0">
-                    <div class="icon transition-all duration-300 group-hover:scale-110">
+                <article class="service-card card-3d animate-fade-in-up opacity-0" itemscope itemtype="https://schema.org/Service">
+                    <div class="icon transition-all duration-300 group-hover:scale-110" aria-hidden="true">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="feather feather-layout transition-all duration-300 group-hover:rotate-6">
@@ -129,13 +300,12 @@
                             <line x1="9" y1="21" x2="9" y2="9"></line>
                         </svg>
                     </div>
-                    <h3>Ny Nettside</h3>
-                    <p>Trenger firmaet ditt en digital oppgradering? Vi lager skreddersydde, moderne nettsider som ser
-                        bra ut på alle skjermer.</p>
+                    <h3 itemprop="name">Lage nettside for bedrift</h3>
+                    <p itemprop="description">Få laget profesjonell nettside skreddersydd for din bedrift. Vi lager moderne nettsider med responsivt design som fungerer perfekt på alle enheter – mobil, tablet og desktop.</p>
                 </article>
 
-                <article class="service-card card-3d animate-fade-in-up opacity-0" style="animation-delay: 0.1s">
-                    <div class="icon transition-all duration-300 group-hover:scale-110">
+                <article class="service-card card-3d animate-fade-in-up opacity-0" style="animation-delay: 0.1s" itemscope itemtype="https://schema.org/Service">
+                    <div class="icon transition-all duration-300 group-hover:scale-110" aria-hidden="true">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="feather feather-tool transition-all duration-300 group-hover:rotate-6">
@@ -144,13 +314,12 @@
                             </path>
                         </svg>
                     </div>
-                    <h3>Feilsøking & Fix</h3>
-                    <p>Har du en nettside som krasjer eller er treg? Vi sjekker den ut og fikser feilen så fort som
-                        mulig.</p>
+                    <h3 itemprop="name">Feilsøking og vedlikehold</h3>
+                    <p itemprop="description">Har din nettside tekniske problemer eller lav hastighet? Vi analyserer, feilsøker og reparerer nettsiden din raskt og effektivt. Komplett vedlikehold av nettsider.</p>
                 </article>
 
-                <article class="service-card card-3d animate-fade-in-up opacity-0" style="animation-delay: 0.2s">
-                    <div class="icon transition-all duration-300 group-hover:scale-110">
+                <article class="service-card card-3d animate-fade-in-up opacity-0" style="animation-delay: 0.2s" itemscope itemtype="https://schema.org/Service">
+                    <div class="icon transition-all duration-300 group-hover:scale-110" aria-hidden="true">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="feather feather-trending-up transition-all duration-300 group-hover:rotate-6">
@@ -158,153 +327,188 @@
                             <polyline points="17 6 23 6 23 12"></polyline>
                         </svg>
                     </div>
-                    <h3>Optimalisering</h3>
-                    <p>Treg nettside? Vi optimaliserer kode og bilder slik at siden din laster lynraskt og rangerer
-                        høyere på søkefeltet.</p>
+                    <h3 itemprop="name">SEO og optimalisering</h3>
+                    <p itemprop="description">Vi optimaliserer nettsiden din for Google og andre søkemotorer. Teknisk SEO, hastighetsoptimalisering og bedre rangering som gir mer trafikk og flere kunder til bedriften din.</p>
                 </article>
             </div>
         </div>
     </section>
 
     <!-- Why Choose Us -->
-    <section class="why-us">
+    <section class="why-us" aria-labelledby="why-heading">
         <div class="container">
             <div class="section-title">
-                <h2>Hvorfor velge WebKlart?</h2>
+                <h2 id="why-heading">Hvorfor velge WebKlart som webdesigner?</h2>
                 <span></span>
             </div>
             <div class="why-grid">
-                <div class="why-card animate-fade-in-up opacity-0">
+                <article class="why-card animate-fade-in-up opacity-0">
                     <h3>Lynrask levering</h3>
-                    <p>Vi jobber effektivt og leverer prosjekter raskt uten å gå på kompromiss med kvalitet.</p>
-                </div>
-                <div class="why-card animate-fade-in-up opacity-0" style="animation-delay: 0.1s">
+                    <p>Vi jobber effektivt og leverer prosjekter raskt uten å gå på kompromiss med kvalitet. Din nettside er klar på rekordtid.</p>
+                </article>
+                <article class="why-card animate-fade-in-up opacity-0" style="animation-delay: 0.1s">
                     <h3>Premium kvalitet</h3>
-                    <p>Moderne design og ren kode som er bygget for å vare og prestere optimalt.</p>
-                </div>
-                <div class="why-card animate-fade-in-up opacity-0" style="animation-delay: 0.2s">
+                    <p>Moderne webdesign og ren kode som er bygget for å vare og prestere optimalt. Profesjonell utvikling fra A til Å.</p>
+                </article>
+                <article class="why-card animate-fade-in-up opacity-0" style="animation-delay: 0.2s">
                     <h3>Fokus på resultater</h3>
-                    <p>Vi bygger nettsider som konverterer besøkende til kunder og øker din omsetning.</p>
-                </div>
-                <div class="why-card animate-fade-in-up opacity-0" style="animation-delay: 0.3s">
+                    <p>Vi lager nettsider som konverterer besøkende til kunder og øker din omsetning. SEO-vennlig og optimalisert for Google.</p>
+                </article>
+                <article class="why-card animate-fade-in-up opacity-0" style="animation-delay: 0.3s">
                     <h3>Løpende support</h3>
-                    <p>Fullstendig support og vedlikehold selv etter lansering av prosjektet.</p>
-                </div>
+                    <p>Fullstendig support og vedlikehold selv etter lansering av prosjektet. Vi er her når du trenger oss.</p>
+                </article>
             </div>
         </div>
     </section>
 
     <!-- Process Section -->
-    <section class="process">
+    <section class="process" aria-labelledby="process-heading">
         <div class="container">
             <div class="section-title">
-                <h2>Slik jobber vi</h2>
+                <h2 id="process-heading">Slik lager vi nettside for din bedrift</h2>
                 <span></span>
             </div>
             <div class="process-timeline">
-                <div class="process-step animate-fade-in-up opacity-0">
-                    <div class="step-number">01</div>
+                <article class="process-step animate-fade-in-up opacity-0">
+                    <div class="step-number" aria-hidden="true">01</div>
                     <div class="step-content">
                         <h3>Konsultasjon</h3>
-                        <p>Vi starter med en grundig samtale for å forstå dine mål og behov.</p>
+                        <p>Vi starter med en grundig samtale for å forstå dine mål og behov. Få gratis råd om webdesign og strategi.</p>
                     </div>
-                </div>
-                <div class="process-step animate-fade-in-up opacity-0" style="animation-delay: 0.1s">
-                    <div class="step-number">02</div>
+                </article>
+                <article class="process-step animate-fade-in-up opacity-0" style="animation-delay: 0.1s">
+                    <div class="step-number" aria-hidden="true">02</div>
                     <div class="step-content">
                         <h3>Design & Planlegging</h3>
-                        <p>Vi lager en skisse og plan som matcher din visjon perfekt.</p>
+                        <p>Vi lager en skisse og plan som matcher din visjon perfekt. Profesjonelt webdesign skreddersydd for din bedrift.</p>
                     </div>
-                </div>
-                <div class="process-step animate-fade-in-up opacity-0" style="animation-delay: 0.2s">
-                    <div class="step-number">03</div>
+                </article>
+                <article class="process-step animate-fade-in-up opacity-0" style="animation-delay: 0.2s">
+                    <div class="step-number" aria-hidden="true">03</div>
                     <div class="step-content">
                         <h3>Utvikling</h3>
-                        <p>Vi bygger nettsiden med moderne teknologi og best practices.</p>
+                        <p>Vi bygger nettsiden din med moderne teknologi og best practices. SEO-optimalisert fra bunnen av.</p>
                     </div>
-                </div>
-                <div class="process-step animate-fade-in-up opacity-0" style="animation-delay: 0.3s">
-                    <div class="step-number">04</div>
+                </article>
+                <article class="process-step animate-fade-in-up opacity-0" style="animation-delay: 0.3s">
+                    <div class="step-number" aria-hidden="true">04</div>
                     <div class="step-content">
                         <h3>Lansering</h3>
-                        <p>Vi publiserer nettsiden og sørger for at alt fungerer perfekt.</p>
+                        <p>Vi publiserer nettsiden og sørger for at alt fungerer perfekt. Din bedrift er klar for online suksess.</p>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio" aria-labelledby="portfolio-heading">
         <div class="container">
             <div class="section-title">
-                <h2>Våre Verk</h2>
+                <h2 id="portfolio-heading">Våre nettsideprosjekter</h2>
                 <span></span>
             </div>
 
             <div class="portfolio-grid">
-                <a href="https://takrent.github.io/" target="_blank" class="project-card card-3d animate-fade-in-up opacity-0">
+                <a href="https://takrent.github.io/" target="_blank" rel="noopener noreferrer" class="project-card card-3d animate-fade-in-up opacity-0" itemscope itemtype="https://schema.org/CreativeWork" itemprop="url">
                     <div class="project-preview img-3d-wrapper">
-                        <!-- Lokalt bilde av takvask/mosefjerning -->
-                        <img src="roof_cleaning.png" alt="Takvask og vedlikehold" class="project-img">
+                        <img src="roof_cleaning.png" alt="TakRent nettside - Profesjonell webdesign for takvask og vedlikehold bedrift" class="project-img" itemprop="image" width="600" height="400" loading="lazy">
                     </div>
                     <div class="project-info">
                         <div class="project-tags">
+                            <span class="tag">TakVask</span>
                             <span class="tag">Nettside</span>
-                            <span class="tag">Design</span>
+                            <span class="tag">Webdesign</span>
                         </div>
-                        <h3>TakRent</h3>
-                        <p>Moderne nettside utviklet med fokus på brukervennlighet og responsivt design.</p>
+                        <h3 itemprop="name">TakRent - Takvask</h3>
+                        <p itemprop="description">Moderne nettside for bedrift utviklet med fokus på brukervennlighet, hastighet og responsivt webdesign. Fullt optimalisert for mobil og desktop.</p>
                         <span class="project-link">Besøk nettsiden →</span>
                     </div>
                 </a>
             </div>
         </div>
     </section>
-
-    <footer id="kontakt">
+    
+    <!-- FAQ Section for SEO -->
+    <section class="why-us" aria-labelledby="faq-heading" itemscope itemtype="https://schema.org/FAQPage">
         <div class="container">
-            <h2>Klar for et samarbeid?</h2>
-            <p style="margin-bottom: 20px; opacity: 0.85;">Ta kontakt for en uforpliktende prat om ditt neste prosjekt.
+            <div class="section-title">
+                <h2 id="faq-heading">Ofte stilte spørsmål om å lage nettside</h2>
+                <span></span>
+            </div>
+            <div class="why-grid">
+                <article class="why-card animate-fade-in-up opacity-0" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 itemprop="name">Hvor mye koster det å lage nettside?</h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text">Prisen for å lage nettside varierer avhengig av funksjonalitet og design. Vi tilbyr skreddersydde løsninger og gir deg en transparent pris basert på dine behov. Kontakt oss for et uforpliktende pristilbud.</p>
+                    </div>
+                </article>
+                <article class="why-card animate-fade-in-up opacity-0" style="animation-delay: 0.1s" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 itemprop="name">Hvor lang tid tar det å få laget nettside?</h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text">En standard nettside for bedrift kan leveres på 1-3 uker. Større prosjekter med avansert funksjonalitet kan ta 4-8 uker. Vi jobber effektivt og holder deg oppdatert gjennom hele prosessen.</p>
+                    </div>
+                </article>
+                <article class="why-card animate-fade-in-up opacity-0" style="animation-delay: 0.2s" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 itemprop="name">Hva om jeg trenger å oppdatere nettsiden?</h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text">Vi tilbyr oppdateringstjenester og støtte etter levering.Vi søreger for løpende vedlikehold og oppdateringer for å sikre at nettsiden din alltid er oppdatert og fungerer optimalt.</p>
+                    </div>
+                </article>
+                <article class="why-card animate-fade-in-up opacity-0" style="animation-delay: 0.3s" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 itemprop="name">Er nettsidene mobiloptimalisert?</h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text">Ja, alle våre nettsider er fullt responsiv webdesign og fungerer perfekt på mobil, tablet og desktop. Vi følger mobile-first prinsippet for optimal brukeropplevelse på alle enheter.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer id="kontakt" role="contentinfo">
+        <div class="container">
+            <h2>Klar for å lage nettside for din bedrift?</h2>
+            <p style="margin-bottom: 20px; opacity: 0.85;">Kontakt oss for en uforpliktende samtale om ditt neste webdesign-prosjekt. Vi hjelper deg med å få laget profesjonell nettside.
             </p>
 
             <div class="contact-form-container">
-                <h3>Kontakt oss</h3>
-                <form id="contact-form" action="https://formspree.io/f/maqdygzr" method="POST">
+                <h3>Kontakt WebKlart</h3>
+                <form id="contact-form" action="https://formspree.io/f/maqdygzr" method="POST" aria-label="Kontaktskjema">
                     <div class="form-group">
-                        <label for="navn">Navn</label>
-                        <input type="text" id="navn" name="navn" class="form-control" placeholder="Ditt navn" required>
+                        <label for="navn">Navn *</label>
+                        <input type="text" id="navn" name="navn" class="form-control" placeholder="Ditt fulle navn" required aria-required="true">
                     </div>
 
                     <div class="form-group">
-                        <label for="email">E-post</label>
+                        <label for="email">E-post *</label>
                         <input type="email" id="email" name="email" class="form-control" placeholder="din@epost.no"
-                            required>
+                            required aria-required="true">
                     </div>
 
                     <div class="form-group">
                         <label for="telefon">Telefon</label>
-                        <input type="tel" id="telefon" name="telefon" class="form-control" placeholder="Telefon">
+                        <input type="tel" id="telefon" name="telefon" class="form-control" placeholder="+47 xxx xx xxx">
                     </div>
 
                     <div class="form-group">
                         <label for="melding">Melding</label>
                         <textarea id="melding" name="melding" class="form-control"
-                            placeholder="Skriv kort hva du ønsker, og hva nettsiden skal dreie seg om."></textarea>
+                            placeholder="Fortell oss om ditt prosjekt - ønsker du å lage nettside, trenger webdesign, eller har andre behov?" rows="5"></textarea>
                     </div>
 
-                    <button type="submit" class="submit-btn transition-all duration-300 hover:scale-105 active:scale-95">Send</button>
+                    <button type="submit" class="submit-btn transition-all duration-300 hover:scale-105 active:scale-95">Send forespørsel</button>
                 </form>
             </div>
         </div>
-        <!-- Fjernet tom e-post link -->
         <div style="margin-top: 40px; display: flex; flex-direction: column; align-items: center; gap: 25px;">
             <div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
-                <span style="opacity: 0.6; font-size: 0.8rem; letter-spacing: 1px; text-transform: uppercase;">Telefon</span>
-                <a href="tel:+4747228951" class="contact-email"
-                    style="margin-bottom: 0px; display: flex; align-items: center; gap: 10px;">
+                <span style="opacity: 0.6; font-size: 0.8rem; letter-spacing: 1px; text-transform: uppercase;">Ring oss</span>
+                <a href="tel:+4747228951" class="contact-email" itemprop="telephone"
+                    style="margin-bottom: 0px; display: flex; align-items: center; gap: 10px;" aria-label="Ring WebKlart på +47 472 28 951">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-phone">
+                        class="feather feather-phone" aria-hidden="true">
                         <path
                             d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
                         </path>
@@ -314,12 +518,12 @@
             </div>
             
             <div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
-                <span style="opacity: 0.6; font-size: 0.8rem; letter-spacing: 1px; text-transform: uppercase;">Mail</span>
-                <a href="mailto:kontakt@webklart.no" class="contact-email"
-                    style="margin-bottom: 0px; display: flex; align-items: center; gap: 10px;">
+                <span style="opacity: 0.6; font-size: 0.8rem; letter-spacing: 1px; text-transform: uppercase;">E-post</span>
+                <a href="mailto:kontakt@webklart.no" class="contact-email" itemprop="email"
+                    style="margin-bottom: 0px; display: flex; align-items: center; gap: 10px;" aria-label="Send e-post til kontakt@webklart.no">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-mail">
+                        class="feather feather-mail" aria-hidden="true">
                         <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                         <polyline points="22,6 12,13 2,6"></polyline>
                     </svg>
@@ -328,7 +532,7 @@
             </div>
         </div>
         
-        <p style="margin-top: 35px;">&copy; 2026 WebKlart. Alle rettigheter reservert.</p>
+        <p style="margin-top: 35px;">&copy; 2026 WebKlart. Alle rettigheter reservert. Profesjonelt webdesign og nettsideutvikling i Norge.</p>
         </div>
     </footer>
 

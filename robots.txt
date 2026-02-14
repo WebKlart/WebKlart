@@ -1,0 +1,29 @@
+# robots.txt for WebKlart - Webdesign og nettsideutvikling
+# Sist oppdatert: 2026-02-14
+
+User-agent: *
+Allow: /
+
+# Hindre crawling av spesifikke filer/mapper
+Disallow: /script.js
+Disallow: /*.json$
+
+# Sitemap plassering
+Sitemap: https://webklart.no/sitemap.xml
+
+# Crawl delay (valgfritt, for å unngå overbelastning)
+# Crawl-delay: 1
+
+# Spesifikk regel for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
